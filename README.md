@@ -1,2 +1,3 @@
-This is my baekjoon page.
-Welcome to my code world.
+#백준 알고리즘
+
+백준 사이트에서 푼 문제들을 올리고 있습니다.
