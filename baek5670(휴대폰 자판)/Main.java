@@ -40,7 +40,7 @@ public class Main {
             if(thisNode.getChildNodes().size() == 1 && !thisNode.isLastNode){
                 thisNode = thisNode.getChildNodes().get(word.charAt(i));
             }
-            else if(thisNode.getChildNodes().size() >= 1){
+            else if(thisNode.getChildNodes().size() != 0){
                 thisNode = thisNode.getChildNodes().get(word.charAt(i));
                 count++;
             }
